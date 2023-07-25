@@ -1,0 +1,16 @@
+
+@font-face {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+  font-style:normal;
+  font-weight: 600;
+}
+
+$font: 'Barlow Semi Condensed', sans-serif;
+
+%fonts {
+  font-family: $font;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}

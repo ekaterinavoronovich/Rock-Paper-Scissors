@@ -1,0 +1,46 @@
+.header {
+  width: 55%;
+  height: 150px;
+  margin-top: 15px;
+  padding: 15px 22px;
+  display: flex;
+  justify-content: space-between;
+  border-style: solid;
+  border-radius: 12px;
+  border-color: $header-outline;
+
+  @media (max-width:600px) {
+    width: 90%;
+  }
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+  background-image: url(./img/logo.svg);
+  background-repeat: no-repeat;
+}
+
+.score {
+  padding: 15px;
+  text-align: center;
+  background-color: $white;
+  width: 100px;
+  height: auto;
+  border-radius: 12px;
+
+}
+
+.title {
+  color: $score-text;
+  font-size: 2.0rem;
+  @extend %fonts;
+  font-weight: 700;
+}
+
+.current-score {
+  @extend %fonts;
+  color: $score-text;
+  font-size: 4.0rem;
+  font-weight: 700;
+}

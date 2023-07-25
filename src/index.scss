@@ -1,0 +1,41 @@
+
+@charset "UTF-8";
+
+// 1. Configuration and helpers
+@import
+  'style/abstracts/variables',
+  'style/abstracts/mixins',
+  'style/abstracts/placeholders';
+
+// 2. Vendors
+
+// 3. Base stuff
+@import
+  'style/base/fonts';
+  
+ 
+
+// 4. Layout-related sections
+@import
+  'style/layout/header',
+  'style/layout/main-page',
+  'style/layout/footer',
+  'style/layout/move-game';
+  
+ 
+
+// 5. Components
+@import
+  'style/components/button',
+  'style/components/modal-window-rules';
+ 
+
+ 
+
+// 6. Page-specific styles
+@import
+  'style/pages/main';
+  
+
+
+

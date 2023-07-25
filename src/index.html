@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Barlow+Semi+Condensed">
+  <title>Rock,Paper,Scissors</title>
+  <link>
+</head>
+
+<body>
+  <div class="main">
+    <div class="overlay">
+      <div class="section-rules">
+        <p class="title title-rules">Rules</p>
+        <button class="btn close">X</button>
+        <img src="./img/image-rules.svg" alt="rules" class="img-rules">
+      </div>
+    </div>
+    <div class="header">
+      <div class="logo"></div>
+      <div class="score">
+        <div class="title">Score</div>
+        <div class="current-score">0</div>
+      </div>
+    </div>
+    <div class="game">
+      <div class="triangle">
+        <div class="game-triangle">
+          <img src="./img/bg-triangle.svg" alt="game" class="img-triangle">
+          <button class=" btn-choice btn-rock" id="rock"></button>
+          <button class="btn-choice btn-paper" id="paper"></button>
+          <button class="btn-choice btn-scissors" id="scissors"></button>
+        </div>
+      </div>
+    </div>
+    <div class="move-game">
+      <p class="you-picked title-choice ">You Picked</p>
+      <p class="title-choice house-picked">The house Picked</p>
+      <div class="show-choice">
+        <button class="btn-zero"></button>
+      </div>
+    </div>
+    <div class="footer">
+      <button class="rules">Rules</button>
+    </div>
+  </div>
+  <script src="./index.js" type="module"></script>
+</body>
+
+</html>
